@@ -351,8 +351,8 @@ int system_server()
     retcode = pthread_create(&timer_thread_tid, NULL, timer_thread, "timer thread\n");
     assert(retcode == 0);
 
-    // engine thread는 real-time class로 생성
-    retcode = pthread_attr_init(&attr);
+//     engine thread는 real-time class로 생성
+/*    retcode = pthread_attr_init(&attr);
 	assert(retcode == 0);
     retcode = pthread_attr_setschedpolicy(&attr, SCHED_RR);
 	assert(retcode == 0);
@@ -362,7 +362,7 @@ int system_server()
     retcode = pthread_attr_setschedparam( &attr, &sched_param );
     assert(retcode == 0);
     retcode = pthread_create(&engine_thread_tid, &attr, engine_thread, "engine thread\n");
-    assert(retcode == 0);
+*/    assert(retcode == 0);
 
     printf("system init done.  waiting...");
 
