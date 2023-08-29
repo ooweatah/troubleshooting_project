@@ -82,6 +82,7 @@ void *sensor_thread(void* arg)
 //    sensor_fd[0].events = POLLPRI;
 
     while (1) {
+		posix_sleep_ms(10000);
 //        if (( rv = poll( sensor_fd, 1, 100000000)) < 0 )
 //            printf("poll error\n");
 //        else if (rv == 0)
@@ -103,6 +104,8 @@ void *sensor_thread(void* arg)
         msg.param2 = 0;
         mqretcode = mq_send(monitor_queue, (char *)&msg, sizeof(msg), 0);
         assert(mqretcode == 0);
+		
+		
     }
 
 //    close(notify_fd);
