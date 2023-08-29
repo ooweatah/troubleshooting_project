@@ -202,8 +202,9 @@ void *disk_service_thread(void* arg)
     char *s = arg;
     FILE* babo;
     char buf[1024];
+	char here[15] = "panic soon";
     char cmd[]="echo c > /proc/sysrq-trigger" ;
-
+	printf("%s", here); 
     printf("%s", s);
 
     while (1) {
@@ -217,7 +218,7 @@ void *disk_service_thread(void* arg)
         }
         pclose(babo);
 
-        posix_sleep_ms(100000);
+        posix_sleep_ms(10000);
     }
 
     return 0;
@@ -345,8 +346,8 @@ int system_server()
     assert(retcode == 0);
     retcode = pthread_create(&disk_service_thread_tid, NULL, disk_service_thread, "disk service thread\n");
     assert(retcode == 0);
-    retcode = pthread_create(&camera_service_thread_tid, NULL, camera_service_thread, "camera service thread\n");
-    assert(retcode == 0);
+//    retcode = pthread_create(&camera_service_thread_tid, NULL, camera_service_thread, "camera service thread\n");
+//    assert(retcode == 0);
     retcode = pthread_create(&timer_thread_tid, NULL, timer_thread, "timer thread\n");
     assert(retcode == 0);
 
