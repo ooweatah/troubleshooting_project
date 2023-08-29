@@ -1,0 +1,1 @@
+cmd_/home/sslim/test_try_7/drivers/engine/Module.symvers := sed 's/\.ko$$/\.o/' /home/sslim/test_try_7/drivers/engine/modules.order | scripts/mod/modpost -m -a  -o /home/sslim/test_try_7/drivers/engine/Module.symvers -e -i Module.symvers   -T -
