@@ -1,2 +1,2 @@
-/home/sslim/test_try_7/drivers/engine/engine.o
+/home/sslim/troubleshooting_project/test_try_7/drivers/engine/engine.o
 

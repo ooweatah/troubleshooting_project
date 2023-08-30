@@ -1,1 +1,1 @@
-cmd_/home/sslim/test_try_7/drivers/engine/engine.mod := { echo  /home/sslim/test_try_7/drivers/engine/engine.o;  echo; } > /home/sslim/test_try_7/drivers/engine/engine.mod
+cmd_/home/sslim/troubleshooting_project/test_try_7/drivers/engine/engine.mod := { echo  /home/sslim/troubleshooting_project/test_try_7/drivers/engine/engine.o;  echo; } > /home/sslim/troubleshooting_project/test_try_7/drivers/engine/engine.mod

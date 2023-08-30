@@ -549,8 +549,8 @@ int input()
     assert(monitor_queue != -1);
     disk_queue = mq_open("/disk_queue", O_RDWR);
     assert(disk_queue != -1);
-    camera_queue = mq_open("/camera_queue", O_RDWR);
-    assert(camera_queue != -1);
+    //camera_queue = mq_open("/camera_queue", O_RDWR);
+    //assert(camera_queue != -1);
 
    /* 여기서 스레드를 생성한다. */
     retcode = pthread_create(&command_thread_tid, NULL, command_thread, "command thread\n");

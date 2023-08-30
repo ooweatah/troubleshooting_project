@@ -1,1 +1,1 @@
-cmd_/home/sslim/test_try_7/drivers/simple_io/modules.order := {   echo /home/sslim/test_try_7/drivers/simple_io/simple_io.ko; :; } | awk '!x[$$0]++' - > /home/sslim/test_try_7/drivers/simple_io/modules.order
+cmd_/home/sslim/troubleshooting_project/test_try_7/drivers/simple_io/modules.order := {   echo /home/sslim/troubleshooting_project/test_try_7/drivers/simple_io/simple_io.ko; :; } | awk '!x[$$0]++' - > /home/sslim/troubleshooting_project/test_try_7/drivers/simple_io/modules.order
