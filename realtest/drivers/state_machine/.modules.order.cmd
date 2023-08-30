@@ -1,0 +1,1 @@
+cmd_/home/sslim/test_try_7/drivers/state_machine/modules.order := {   echo /home/sslim/test_try_7/drivers/state_machine/state_machine.ko; :; } | awk '!x[$$0]++' - > /home/sslim/test_try_7/drivers/state_machine/modules.order
