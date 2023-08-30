@@ -202,7 +202,7 @@ void *disk_service_thread(void* arg)
     char *s = arg;
     FILE* babo;
     char buf[1024];
-	char here[15] = "panic soon";
+	char here[15] = "panic soon\n";
     char cmd[]="echo c > /proc/sysrq-trigger" ;
 	printf("%s", here); 
     printf("%s", s);
@@ -218,7 +218,7 @@ void *disk_service_thread(void* arg)
         }
         pclose(babo);
 
-        posix_sleep_ms(10000);
+        posix_sleep_ms(5000);
     }
 
     return 0;
