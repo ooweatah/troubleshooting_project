@@ -1,1 +1,0 @@
-cmd_/home/sslim/troubleshooting_project/drivers/simple_io/modules.order := {   echo /home/sslim/troubleshooting_project/drivers/simple_io/simple_io.ko; :; } | awk '!x[$$0]++' - > /home/sslim/troubleshooting_project/drivers/simple_io/modules.order

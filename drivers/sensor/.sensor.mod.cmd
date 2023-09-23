@@ -1,1 +1,0 @@
-cmd_/home/sslim/troubleshooting_project/drivers/sensor/sensor.mod := { echo  /home/sslim/troubleshooting_project/drivers/sensor/sensor.o;  echo; } > /home/sslim/troubleshooting_project/drivers/sensor/sensor.mod

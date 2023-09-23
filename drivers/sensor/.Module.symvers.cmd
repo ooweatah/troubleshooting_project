@@ -1,1 +1,0 @@
-cmd_/home/sslim/troubleshooting_project/drivers/sensor/Module.symvers := sed 's/\.ko$$/\.o/' /home/sslim/troubleshooting_project/drivers/sensor/modules.order | scripts/mod/modpost -m -a  -o /home/sslim/troubleshooting_project/drivers/sensor/Module.symvers -e -i Module.symvers   -T -

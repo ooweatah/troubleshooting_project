@@ -1,1 +1,0 @@
-cmd_/home/sslim/troubleshooting_project/drivers/state_machine/state_machine.mod := { echo  /home/sslim/troubleshooting_project/drivers/state_machine/state_machine.o;  echo; } > /home/sslim/troubleshooting_project/drivers/state_machine/state_machine.mod
