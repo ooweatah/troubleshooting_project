@@ -1,0 +1,1 @@
+cmd_/home/sslim/troubleshooting_project/drivers/simple_io/Module.symvers := sed 's/\.ko$$/\.o/' /home/sslim/troubleshooting_project/drivers/simple_io/modules.order | scripts/mod/modpost -m -a  -o /home/sslim/troubleshooting_project/drivers/simple_io/Module.symvers -e -i Module.symvers   -T -
